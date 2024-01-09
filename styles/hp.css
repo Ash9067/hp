@@ -2,18 +2,22 @@ main {
     width: 1320px;
     margin: 0 auto;
 }
-.hero{
+
+.hero {
     background-color: #fff;
     background-image:
         linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
     height: 580px;
-    background-size: contain background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     background-position: center;
     border-radius: 16px;
     margin: 50px 100px;
-
+    background-size: contain;
 }
+
+
 
 .banner {
     text-align: center;
@@ -39,12 +43,12 @@ main {
 }
 
 
-.offer-sec{
+.offer-sec {
     padding: 110px 0;
-    
+
 }
 
-.offer-percentage{
+.offer-percentage {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -74,7 +78,7 @@ main {
 
 .image-new-offer {
     text-align: center;
-    
+
 
 }
 
@@ -233,7 +237,7 @@ main {
 #year {}
 
 
-.holydays-sale{
+.holydays-sale {
     margin: 120px 0;
 
 }
@@ -298,12 +302,14 @@ main {
     border-radius: 16px 0px 16px 16px;
 }
 
-.imag-sec{
+.imag-sec {
     margin: 50px;
-} 
-.h2:hover{
-    box-shadow: 0 0 0 4px #fff,0 0 0 8px #4070f4;
 }
+
+.h2:hover {
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px #4070f4;
+}
+
 /* new year image  section styles */
 
 .new-year-image-title {
@@ -335,18 +341,19 @@ main {
     line-height: 32px;
 }
 
-.new-year-image-grid{
+.new-year-image-grid {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
-    
+
 }
+
 /* end new year image section */
 
 /* newsletter section styles */
 
-.news{
+.news {
     text-align: center;
     margin: 120px 0;
     padding: 80px 0;
