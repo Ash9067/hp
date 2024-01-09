@@ -1,0 +1,469 @@
+main {
+    width: 1320px;
+    margin: 0 auto;
+}
+.hero{
+    background-color: #fff;
+    background-image:
+        linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+    height: 580px;
+    background-size: contain background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    border-radius: 16px;
+    margin: 50px 100px;
+
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-family: Merriweather;
+    padding: 177px 244px;
+}
+
+.banner-greeting {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    font-size: 74px;
+    font-weight: 700;
+    margin-top: 20px;
+
+
+}
+
+
+.offer-sec{
+    padding: 110px 0;
+    
+}
+
+.offer-percentage{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-deals {
+    margin: 0;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.image-new-offer {
+    text-align: center;
+    
+
+}
+
+.party {
+    display: flex;
+    padding: 70px 125px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    gap: 35px;
+    height: 450px;
+}
+
+.party-content {
+    max-width: 80%;
+}
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+.party-btn-join {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.schedule-sec {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 450px;
+    padding: 50px;
+    margin: 120px 0px;
+
+}
+
+.sch {}
+
+.schedule {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    padding: 100px 320px 150px 320px;
+}
+
+.text-orange {
+    color: #F00;
+}
+
+.btn-sch {
+    background-color: #F00;
+    padding: 13px;
+    color: #FFF;
+    border-radius: 8px;
+    border: 0;
+}
+
+.new-year-column {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    gap: 50px;
+    justify-content: center;
+    margin: 90px 100px;
+
+}
+
+.new-year-column-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.new-year-coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.new-year-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+
+}
+
+
+.new-year-column-second {
+    align-items: center;
+    justify-content: center;
+    padding: 28px 28px;
+    border: #F00 15px solid;
+    border-radius: 100%;
+    width: 364px;
+    height: 364px;
+
+}
+
+.new-year-column-third {
+    padding-left: 20px;
+    padding-top: 140px;
+
+}
+
+.nye-title {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nye-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    padding-bottom: 43px;
+    margin-top: 0px;
+
+}
+
+#year {}
+
+
+.holydays-sale{
+    margin: 120px 0;
+
+}
+
+.what-is-functional {
+    margin: 0;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holydays-50 {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holydays-strong {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holydays-description {
+    margin: 0 auto;
+    max-width: 70%;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holydays-pic-sec {
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    background-image: url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.holydays-pic-1 {
+    z-index: 1;
+    margin-bottom: -18.6%;
+}
+
+.holydays-bottom {
+    height: 229px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.imag-sec{
+    margin: 50px;
+} 
+.h2:hover{
+    box-shadow: 0 0 0 4px #fff,0 0 0 8px #4070f4;
+}
+/* new year image  section styles */
+
+.new-year-image-title {
+    margin: 0;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year-image-sub-title {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.new-year-image-description {
+    margin: 0;
+    padding-bottom: 45px;
+    max-width: 70%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-year-image-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    
+}
+/* end new year image section */
+
+/* newsletter section styles */
+
+.news{
+    text-align: center;
+    margin: 120px 0;
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.news-title {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.news-description {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.news-form input[type="email"] {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 250px 25px 0px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    margin: 0;
+}
+
+.news-form input[type="submit"] {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F00;
+    padding: 23px 30px 24.5px 30px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    margin: 0 0 0 -5px;
+}
+
+/* Footer section styles */
+
+.hr {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+footer {
+    background: #070211;
+    size: 100%;
+}
+
+.footer {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.footer-top {
+    gap: 550px;
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.footer-top-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-top-right-sub {
+    align-items: center;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    gap: 15px;
+}
+
+.footer-mid {
+    justify-content: center;
+    gap: 24px;
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.footer-down {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-dowm-content {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
